@@ -1,0 +1,12 @@
+// ---- Deployment
+
+// Run a Build
+* In Command Line:
+* ng Build
+* Creates things in dist folder
+* ng build --prod
+* In production runs different optimizations to make the app run quicker
+* Once distribution is created then Deployment
+* Options:
+1. Upload dist to a server (and run ng build --prod --base-href="url")
+2. GitHub Pages (and run npm install -g anguar-cli-ghpages)
