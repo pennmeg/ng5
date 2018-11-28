@@ -9,6 +9,7 @@ export class HomeComponent implements OnInit {
 
   itemCount: number = 4;
   btnText: string = 'Add Item';
+  goalText: string = 'My First Life Goal';
   constructor() { }
 
   ngOnInit() {
