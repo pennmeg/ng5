@@ -10,3 +10,6 @@
 * Options:
 1. Upload dist to a server (and run ng build --prod --base-href="url")
 2. GitHub Pages (and run npm install -g anguar-cli-ghpages)
+  * Setup GH repo
+  * ng build --prod --base-href="https//userame.github.io/ng5"
+  * angular-cli-ghpages

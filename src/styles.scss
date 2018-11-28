@@ -5,22 +5,25 @@
 body {
   padding: 3em;
   font-family: 'Raleway', 'Arial';
-  background-color: #2E9CE6;
+  background-color: #A9BCD0;
   color: #fff;
 }
-ul {
+.menu {
   padding: 0;
   margin: 0 0 2em 0;
   list-style-type: none;
 }
-ul li {
+.menu li {
   display: inline;
-  margin-right: 1.8em;
+  margin-right: 1.5em;
 }
-ul li a {
-  font-size: 1.5em;
+.menu-item, .menu span {
+  font-size: 1.35em;
 }
 a {
   color: #fff;
   text-decoration: none;
+}
+a:hover {
+  border-bottom: 2px solid #58A4B0;
 }

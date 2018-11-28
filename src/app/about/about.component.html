@@ -1,8 +1,18 @@
-<p>
-  This is what I'm all about. <a href="" (click)="sendMeHome()"><strong>Take Me Back</strong></a>.
-</p>
-<ul>
-  <li *ngFor="let goal of goals">
-    {{ goal }}
-  </li>
-</ul>  
+<div class="summary">
+  <h1 class="header--color-dark">Life Begins Outside Your Comfort Zone</h1>
+  <h2>What is a Bucket List?</h2>
+  <p>A list of things you'd like to do before you die.</p>
+  <h2>Your Current Bucket List</h2>
+  <ul>
+    <li *ngFor="let goal of goals">
+      {{ goal }}
+    </li>
+  </ul>
+  <h2>Bucket List Ideas</h2>
+  <ul>
+    <li><a href="https://personalexcellence.co/blog/bucket-list/">101 Things To Do Before You Die</a></li>
+    <li><a href="https://www.developgoodhabits.com/bucket-list-ideas/">Develop Good Habits</a></li>
+  </ul>
+  <hr>  
+  <p>Thanks for the ideas! <a href="" (click)="sendMeHome()"><strong>Take Me Back Home</strong></a>.</p>
+</div>
