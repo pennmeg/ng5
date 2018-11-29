@@ -9,7 +9,8 @@
 </div>
 <div class="container color-light" [@goals]="goals.length">
   <div class="col">
-    <p class="sm">Using the space below add a new bucket list goal. Once you've entered a goal, make sure you live it!</p>
+    <p class="sm">Using the space below add a new bucket list item. Remove items by clicking on them.</p>
+    <p class="sm">Once you've entered a goal, don't let it just sit on this list - live it!</p>
     <form>
       <input type="text" class="txt" name="item" placeholder="I Dream Of.." [(ngModel)]="goalText">
       <input type="submit" class="btn" [value]="btnText" (click)="addItem()">
