@@ -2,7 +2,6 @@
 
 <div class="container color-dark">
   <div class="col">
-    <p>Using the space below add a new bucket list goal. Once you've entered a goal, make sure you live it!</p>
   </div>
   <div class="col">
     <p>Your Bucket List ({{ itemCount }})</p>
@@ -10,6 +9,7 @@
 </div>
 <div class="container color-light" [@goals]="goals.length">
   <div class="col">
+    <p class="sm">Using the space below add a new bucket list goal. Once you've entered a goal, make sure you live it!</p>
     <form>
       <input type="text" class="txt" name="item" placeholder="I Dream Of.." [(ngModel)]="goalText">
       <input type="submit" class="btn" [value]="btnText" (click)="addItem()">
